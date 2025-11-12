@@ -75,4 +75,4 @@ if __name__ == '__main__':
 		street = step_up(street)
 
 		time.sleep(0.07)
-		os.system('clear')
+		os.system('cls')

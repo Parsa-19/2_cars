@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
 	step = 0
 	while True:
-		os.system('clear')
+		os.system('cls')
 		step += 1
 		
 		print(f"step {step}")
