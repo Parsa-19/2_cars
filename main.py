@@ -44,7 +44,7 @@ def create_random_line_on_street(diamonds='◈', square='▣', circle='◉', bla
 	global blank_circle_square
 	global item_weight
 	global save_continuous_sq
-	global give_it_blank_line
+	global give_it_blank_l1ine
 	global distance_between_sq 
 	global choose_diamonds
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
 	blank_circle_square = [blank, circle, square]
 
 	global item_weight
-	item_weight = [0.99, 0.07, 0.04]
+	item_weight = [0.99, 0.05, 0.05]
 
 	# square_blocking vars
 	global save_continuous_sq
@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
 	step = 0
 	while True:
-		os.system('clear')
+		os.system('cls')
 		step += 1
 		
 		print(f"step {step}")
